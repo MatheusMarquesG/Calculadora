@@ -1,11 +1,12 @@
 programa {
   funcao inicio() {
-         inteiro n1, n2, soma
-    escreva("Escreva um número: ")
-    leia(n1)
-    escreva("Escreva um segundo número: ")
-    leia(n2)
+    real numero1, soma, numero2, resultado
+    escreva("Escreva um número e logo após digite o número que será subtraido \n")
+    leia(numero1)
+    leia(numero2)
     soma=n1+n2
+    resultado = numero1-numero2
+    escreva("O resultado da subtração é: ", resultado)  
     escreva("A Soma de " ,n1, "e" ,n2, "é" ,soma)
   }
 }
