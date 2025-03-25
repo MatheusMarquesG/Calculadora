@@ -7,7 +7,7 @@ programa {
     escreva("Digite o segundo numero: \n")
     leia(n2)
 
-    result = n1 * n2
+    result = n1 + n2
 
     escreva("O resultado da multiplicação é: ", result)
   }
